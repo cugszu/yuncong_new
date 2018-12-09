@@ -80,7 +80,7 @@ class VOCDataset(Dataset):
 
     def __init__(self, images_dir, annotation, image_size=640, transform=None):
         super().__init__()
-        self.images_dir = os.path.join(images_dir, 'Data/train_and_validate/All')
+        self.images_dir = os.path.join(images_dir, 'Data/train_and_validate/All/')
         self.annotation = annotation
         self.transform = transform
         self.image_size = image_size
