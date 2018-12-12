@@ -12,7 +12,7 @@ class Config(object):
     DATASETS = 'VOC'  # currently support 'WF' and 'VOC'
 
     # VOC datasets utilities
-    VOC_CLASS = 'humnan_head'
+    VOC_CLASS = 'human_head'
 
     # training && log controls
     MODEL_SAVE_STRIDE = 1
